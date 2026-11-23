@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.py[oc]
+
+# Node (scripts only, no dependencies)
+node_modules/
+
+# Documentation - link to the course content in the www.ediblebyte.com project
+/docs

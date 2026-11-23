@@ -1,0 +1,10 @@
+{
+  "name": "work-board",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Small Kanban board. FastAPI serves the API and static frontend.",
+  "scripts": {
+    "start": "start http://127.0.0.1:8000 && uv run uvicorn app.main:app",
+    "dev": "uv run uvicorn app.main:app --reload"
+  }
+}

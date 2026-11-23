@@ -1,0 +1,23 @@
+[project]
+name = "work-board"
+version = "0.1.0"
+description = "Small Kanban board"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=2.12.0",
+    "fastapi",
+    "python-dotenv>=1.2.4",
+    "uvicorn",
+]
+
+[tool.uv]
+package = false
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest>=9.2.0",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
